@@ -1,11 +1,14 @@
-// import logo from './logo.svg';
-// import './App.css';
+import React from "react";
+import SearchForm from "./main";
+import Stories from "./Stories";
+
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <SearchForm/>
+      <Stories />
+    </>
   );
 }
 
